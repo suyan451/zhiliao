@@ -1,0 +1,6 @@
+interface:
+  display_name: "知了工坊归纳"
+  short_description: "把论文、项目、数据资料拆解成工作台草稿"
+  default_prompt: "Use $industrial-knowledge-intake to turn papers, project notes, dataset docs, or technical notes into one or more reviewable 工作台 drafts for 知了工坊."
+policy:
+  allow_implicit_invocation: true

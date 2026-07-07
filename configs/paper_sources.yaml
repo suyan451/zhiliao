@@ -1,0 +1,10 @@
+sources:
+  - name: arXiv cs.CV
+    type: arxiv
+    query: "cat:cs.CV AND (distillation OR segmentation OR detection OR anomaly OR pretraining)"
+  - name: CVF Open Access
+    type: web
+    url: "https://openaccess.thecvf.com/"
+  - name: Papers with Code
+    type: web
+    url: "https://paperswithcode.com/"

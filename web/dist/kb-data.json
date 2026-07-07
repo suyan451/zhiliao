@@ -1,0 +1,487 @@
+{
+  "generatedAt": "2026-07-07 14:44:19",
+  "directions": [
+    "交互式分割",
+    "分类",
+    "实例分割",
+    "工业解决方案",
+    "异常检测",
+    "提示分割",
+    "目标检测",
+    "知识蒸馏",
+    "语义分割",
+    "预训练"
+  ],
+  "techDirections": [
+    {
+      "direction_id": "dir-交互式分割",
+      "name": "交互式分割",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-分类",
+      "name": "分类",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-实例分割",
+      "name": "实例分割",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-工业解决方案",
+      "name": "工业解决方案",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-异常检测",
+      "name": "异常检测",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-提示分割",
+      "name": "提示分割",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-目标检测",
+      "name": "目标检测",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-知识蒸馏",
+      "name": "知识蒸馏",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-语义分割",
+      "name": "语义分割",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    },
+    {
+      "direction_id": "dir-预训练",
+      "name": "预训练",
+      "summary": "",
+      "parent_id": "",
+      "status": "active",
+      "created_at": "2026-07-04 09:20:59",
+      "updated_at": "2026-07-04 09:20:59",
+      "version": 1
+    }
+  ],
+  "directionAliases": [
+    {
+      "alias": "交互式分割",
+      "direction_id": "dir-交互式分割"
+    },
+    {
+      "alias": "分类",
+      "direction_id": "dir-分类"
+    },
+    {
+      "alias": "实例分割",
+      "direction_id": "dir-实例分割"
+    },
+    {
+      "alias": "工业解决方案",
+      "direction_id": "dir-工业解决方案"
+    },
+    {
+      "alias": "异常检测",
+      "direction_id": "dir-异常检测"
+    },
+    {
+      "alias": "提示分割",
+      "direction_id": "dir-提示分割"
+    },
+    {
+      "alias": "目标检测",
+      "direction_id": "dir-目标检测"
+    },
+    {
+      "alias": "知识蒸馏",
+      "direction_id": "dir-知识蒸馏"
+    },
+    {
+      "alias": "语义分割",
+      "direction_id": "dir-语义分割"
+    },
+    {
+      "alias": "预训练",
+      "direction_id": "dir-预训练"
+    }
+  ],
+  "domains": [
+    {
+      "slug": "kd",
+      "name": "知识蒸馏",
+      "description": "面向分类、检测、分割、异常检测等任务的 teacher-student 压缩与迁移。",
+      "owner": "",
+      "created_at": "2026-07-02 11:34:12"
+    },
+    {
+      "slug": "sam",
+      "name": "SAM 与基础分割模型",
+      "description": "SAM 及基础分割模型在工业标注、检测、分割中的适配。",
+      "owner": "",
+      "created_at": "2026-07-02 11:34:12"
+    },
+    {
+      "slug": "pretrain",
+      "name": "预训练与自监督",
+      "description": "工业视觉数据上的预训练、自监督和迁移学习。",
+      "owner": "",
+      "created_at": "2026-07-02 11:34:12"
+    },
+    {
+      "slug": "model_arch",
+      "name": "模型结构",
+      "description": "检测、分割、分类、异常检测模型结构选型与改造。",
+      "owner": "",
+      "created_at": "2026-07-02 11:34:12"
+    },
+    {
+      "slug": "solution",
+      "name": "工业解决方案",
+      "description": "项目方案、现场经验、交付流程和标准化方案沉淀。",
+      "owner": "",
+      "created_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "papers": [
+    {
+      "id": 1,
+      "title": "Feature Distillation for Industrial Segmentation Baselines",
+      "year": 2026,
+      "venue": "示例论文",
+      "url": "",
+      "code_url": "",
+      "domain_slug": "kd",
+      "task": "语义分割",
+      "keywords": "feature distillation, segmentation, industrial defect",
+      "abstract": "",
+      "summary": "示例卡片：以中间特征对齐提升轻量分割模型表现，不改变推理结构。",
+      "method_type": "Feature KD",
+      "industrial_value": "适合先作为工业分割蒸馏方向的最小验证样例。",
+      "risk": "需要关注 teacher/student 特征尺度不一致和 loss 权重敏感问题。",
+      "reproducibility": "",
+      "priority": "A",
+      "status": "待精读",
+      "card_path": "C:\\Users\\s04921.LUSTERINC\\Documents\\单技术路线知识库积累+持续沿着该路线调研+复现验证优化实现\\kb\\papers\\0001_feature_distillation_for_industrial_segmentation_baselines.md",
+      "created_at": "2026-07-02 11:34:12",
+      "updated_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "methods": [
+    {
+      "id": 1,
+      "name": "Feature Alignment KD",
+      "domain_slug": "kd",
+      "category": "Feature Distillation",
+      "task": "语义分割",
+      "summary": "通过中间层特征对齐，让 student 学习 teacher 的空间表征。",
+      "applicable_scenarios": "teacher/student 同为 encoder-decoder，且推理结构不能增加额外开销。",
+      "implementation_cost": "中等：需要注册 feature hook，增加训练 loss，不影响部署。",
+      "validation_status": "待验证",
+      "priority": "A",
+      "best_score": "",
+      "evidence": "来自示例论文和历史经验，尚未完成本地验证。",
+      "paper_ids": "1",
+      "card_path": "C:\\Users\\s04921.LUSTERINC\\Documents\\单技术路线知识库积累+持续沿着该路线调研+复现验证优化实现\\kb\\methods\\0001_feature_alignment_kd.md",
+      "created_at": "2026-07-02 11:34:12",
+      "updated_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "experiments": [
+    {
+      "id": 1,
+      "exp_id": "EXP-KD-SEG-0001",
+      "title": "工业缺陷分割 Feature KD 最小验证",
+      "domain_slug": "kd",
+      "task": "语义分割",
+      "scenario": "轻量分割模型边界和小缺陷召回不足",
+      "method_name": "Feature Alignment KD",
+      "dataset": "示例数据集",
+      "teacher_model": "Teacher-Seg-Large",
+      "student_model": "Student-Seg-Tiny",
+      "baseline": "Student without KD",
+      "metrics_json": "{\n  \"mIoU\": \"待跑\",\n  \"boundary_f1\": \"待跑\",\n  \"fps\": \"待测\"\n}",
+      "result_summary": "示例实验记录，等待替换为真实结果。",
+      "status": "计划中",
+      "conclusion": "未验证。",
+      "recommendation": "先用小数据闭环验证训练流程和指标解析。",
+      "artifact_path": "",
+      "record_path": "C:\\Users\\s04921.LUSTERINC\\Documents\\单技术路线知识库积累+持续沿着该路线调研+复现验证优化实现\\kb\\experiments\\EXP-KD-SEG-0001_工业缺陷分割_feature_kd_最小验证.md",
+      "created_at": "2026-07-02 11:34:12",
+      "updated_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "bestPractices": [
+    {
+      "id": 1,
+      "domain_slug": "kd",
+      "task": "语义分割",
+      "scenario": "轻量模型部署",
+      "title": "工业语义分割蒸馏当前推荐方案",
+      "method_name": "Feature Alignment KD",
+      "result_summary": "当前为示例占位，等待真实实验刷新。",
+      "evidence_exp_ids": "EXP-KD-SEG-0001",
+      "applicable_conditions": "teacher/student 特征尺度可对齐，训练阶段允许增加 KD loss。",
+      "limits": "异构差异过大时可能需要 adapter 或额外投影层。",
+      "doc_path": "C:\\Users\\s04921.LUSTERINC\\Documents\\单技术路线知识库积累+持续沿着该路线调研+复现验证优化实现\\kb\\best_practices\\kd_segmentation_current_best.md",
+      "created_at": "2026-07-02 11:34:12",
+      "updated_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "project_id": "PRJ-DEMO-0001",
+      "name": "示例工业分割项目",
+      "domain_slug": "solution",
+      "scenario": "缺陷分割模型轻量化",
+      "problem": "小模型推理快但边界质量下降。",
+      "solution": "使用蒸馏候选方案进行训练阶段增强，保留 student 推理结构。",
+      "status": "沉淀中",
+      "doc_path": "",
+      "created_at": "2026-07-02 11:34:12",
+      "updated_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "assets": [
+    {
+      "id": 1,
+      "name": "Feature KD Loss 模板",
+      "type": "code_recipe",
+      "domain_slug": "kd",
+      "path": "kb/assets/feature_kd_loss_template.md",
+      "description": "记录 feature hook、loss 组合和权重调参建议的代码资产占位。",
+      "related_method": "Feature Alignment KD",
+      "created_at": "2026-07-02 11:34:12",
+      "updated_at": "2026-07-02 11:34:12"
+    }
+  ],
+  "customDirections": [
+    {
+      "name": "分类",
+      "summary": "分类类别"
+    }
+  ],
+  "customSubTechCards": [
+    {
+      "id": "tech_card-asdafsasd",
+      "direction": "语义分割",
+      "techName": "asdafsasd",
+      "officialPaperLink": "asfasdas",
+      "codeRepo": "asfasd",
+      "lineage": "",
+      "principle": "",
+      "applicationEffect": "",
+      "strengths": "",
+      "limitations": "",
+      "projectUsage": "",
+      "relatedProjects": [],
+      "relatedDatasets": [],
+      "relatedPapers": [],
+      "relatedTechCards": [],
+      "customFields": [],
+      "blocks": []
+    },
+    {
+      "id": "tech_card-soft-crop-软裁剪",
+      "direction": "实例分割",
+      "techName": "Soft Crop 软裁剪",
+      "officialPaperLink": "",
+      "codeRepo": "",
+      "lineage": "来自 3C焊点检测专用实例分割模型项目的实例分割 Mask 后处理优化。",
+      "principle": "将 bbox 硬截断裁剪改为边界过渡带裁剪，按像素到 bbox 边界距离生成水平/垂直 alpha 并乘到 mask 上。\n\n![Soft Crop 与 Hard Crop 原理对比](knowledge-assets/20260707/image23-685c8224.png)",
+      "applicationEffect": "文档验证中，手动和自动 soft_pixels 均能让焊点 Mask 边缘过渡自然，消除锯齿感，支撑真边精度 ±3px 指标。",
+      "strengths": "不改变模型主体；可自动计算或手动调参；1e-7 可退化硬裁剪，便于兼容回退。",
+      "limitations": "soft_pixels 过大可能缩小目标区域；非类圆目标需单独验证；推理阈值需与训练评估阈值分离。",
+      "projectUsage": "3C焊点检测专用实例分割模型项目，用于消除焊点实例分割预测结果直角边。",
+      "relatedProjects": [],
+      "relatedDatasets": [],
+      "relatedPapers": [],
+      "relatedTechCards": [],
+      "customFields": [
+        "{'label': '来源文档', 'value': '/Users/shihuyi/Downloads/AI/AIResearch/zhengli/当前使用的技术方案以及具体指标/1、3C焊点检测专用实例分割模型项目-软件详细设计-FBrainCore算法详细设计V1.0.docx'}",
+        "{'label': '核心参数', 'value': 'soft_pixels, mask_thr_binary'}"
+      ],
+      "blocks": []
+    },
+    {
+      "id": "tech_card-工业实例分割预训练蒸馏",
+      "direction": "知识蒸馏",
+      "techName": "工业实例分割预训练蒸馏",
+      "officialPaperLink": "",
+      "codeRepo": "",
+      "lineage": "来自 3C焊点检测专用实例分割模型项目的教师-学生蒸馏预训练流程；教师为 yolov11-x-seg，学生为 yolov11-n-seg。",
+      "principle": "通过工业实例分割大数据集预训练教师模型，再用焊点数据进行场景预训练，最后冻结教师并对学生进行 neck 特征、分类、bbox 和 bbox 分布蒸馏。\n\n![工业实例分割预训练蒸馏流程](knowledge-assets/20260707/image12-ebe2aba5.png)",
+      "applicationEffect": "三个焊点小样本场景达到 0 过 0 漏，边缘误差 ±1.5px 到 ±2px，训练时间 6-8 分钟内；消融实验截图待人工复核数值。",
+      "strengths": "大模型能力迁移到轻量学生模型；教师/蒸馏模型内部使用，现场只开放学生模型；适合作为工业实例分割专用预训练权重生产流程。",
+      "limitations": "依赖大规模工业数据和 A800 级训练资源；消融实验需补齐可追溯表格；数据集版本和权限待确认。",
+      "projectUsage": "3C焊点检测专用实例分割模型项目，用于生成 FBINS_11N_SOLDERJOINT 预训练权重。",
+      "relatedProjects": [],
+      "relatedDatasets": [],
+      "relatedPapers": [],
+      "relatedTechCards": [],
+      "customFields": [
+        "{'label': '来源文档', 'value': '/Users/shihuyi/Downloads/AI/AIResearch/zhengli/当前使用的技术方案以及具体指标/1、3C焊点检测专用实例分割模型项目-软件详细设计-FBrainCore算法详细设计V1.0.docx'}",
+        "{'label': '关联方向', 'value': '知识蒸馏 / 实例分割 / 预训练'}"
+      ],
+      "blocks": []
+    }
+  ],
+  "customResearchCards": [
+    {
+      "id": "research_paper-segment-anything",
+      "title": "Segment Anything",
+      "direction": "提示分割",
+      "status": "待读",
+      "officialGithub": "https://github.com/facebookresearch/segment-anything",
+      "paperUrl": "https://arxiv.org/abs/2304.02643",
+      "summary": "提出可提示的通用分割模型 SAM，通过图像编码器、提示编码器和掩码解码器，把点、框、粗 mask 等提示转化为目标掩码。模型基于大规模 SA-1B 数据集训练，强调零样本迁移和交互式分割能力。",
+      "directionKeywords": "promptable segmentation, foundation model, interactive segmentation, zero-shot mask generation, industrial defect annotation",
+      "industrialValue": "适合作为工业缺陷分割、数据标注加速、交互式修正和少样本场景的基础验证对象。对实际项目的价值不在于直接替代专用分割模型，而在于降低标注成本、快速生成候选 mask、辅助人工确认边界，并为后续蒸馏或轻量化部署提供 teacher/伪标签来源。",
+      "verificationConclusion": "当前进入待读状态。若验证有效，优先沉淀为“交互式标注/伪标签生成”技术卡，而不是直接作为线上分割方案。",
+      "experimentObservation": "待本地验证。建议先选择边界清晰、背景稳定的缺陷图像，比较点提示、框提示和自动 mask 生成三种模式；重点观察小缺陷、低对比缺陷、重复纹理背景下的误分割情况。",
+      "failureReason": "潜在风险包括工业缺陷尺度小、边界弱、背景纹理重复、透明/反光材料导致提示响应不稳定；原始 SAM 模型体量大，直接部署到现场推理链路成本较高。",
+      "experimentExperience": "验证时需要记录提示类型、缺陷尺寸、图像分辨率、每张图人工修正时间、mask 后处理规则以及与专用模型结果的差异。",
+      "blocks": []
+    },
+    {
+      "id": "research_paper-a-a",
+      "title": "a a",
+      "direction": "交互式分割",
+      "status": "待读",
+      "officialGithub": "",
+      "paperUrl": "",
+      "summary": "",
+      "directionKeywords": "",
+      "industrialValue": "",
+      "verificationConclusion": "",
+      "experimentObservation": "",
+      "failureReason": "",
+      "experimentExperience": "",
+      "blocks": []
+    }
+  ],
+  "customProjectCards": [
+    {
+      "id": "project-1783059593236",
+      "title": "示例工业分割项目1",
+      "direction": "工业解决方案",
+      "status": "沉淀中",
+      "projectStage": null,
+      "acceptanceMetrics": null,
+      "requirements": "小模型推理快但边界质量下降。",
+      "metricSpec": "",
+      "keyTech": "使用蒸馏候选方案进行训练阶段增强，保留 student 推理结构。",
+      "relatedDatasets": [],
+      "relatedPapers": [],
+      "relatedTechCards": [],
+      "flow": "使用蒸馏候选方案进行训练阶段增强，保留 student 推理结构。",
+      "experience": "缺陷分割模型轻量化",
+      "retrospectiveConclusion": null,
+      "docPath": "",
+      "blocks": []
+    },
+    {
+      "id": "project_case-aa",
+      "title": "aa",
+      "direction": "分类",
+      "status": "预研",
+      "projectStage": "项目初期",
+      "acceptanceMetrics": "![ChatGPT-Image-2026年7月6日-11_23_46-65690635](knowledge-assets/20260706/ChatGPT-Image-2026年7月6日-11_23_46-65690635.png)",
+      "requirements": "",
+      "metricSpec": "",
+      "keyTech": "",
+      "relatedDatasets": [],
+      "relatedPapers": [],
+      "relatedTechCards": [],
+      "flow": "",
+      "experience": "",
+      "retrospectiveConclusion": "",
+      "docPath": "",
+      "blocks": []
+    },
+    {
+      "id": "project_case-3c焊点检测专用实例分割模型项目-fbraincore算法详细设计",
+      "title": "3C焊点检测专用实例分割模型项目",
+      "direction": "实例分割",
+      "status": "沉淀中",
+      "projectStage": "详细设计 / 自测验证",
+      "acceptanceMetrics": "| 指标类别 | 验收目标/规格 | 文档依据 |\n| --- | --- | --- |\n| 检出精度 | 三个目标焊点场景在 20-30 张小样本训练条件下达到焊点个数 0 漏 0 过 | 3.1.2、3.1.3、5.1.2 |\n| 真边精度 | Mask 边缘误差控制在 ±3 像素以内 | 3.1.2、3.1.3、5.1.2 |\n| 训练效率 | 3060/4070Ti Super 等 12G-16G 显存显卡，最低 i7-6700K，单模型训练时间 8 分钟以内 | 3.1.2、3.1.3 |\n| 推理效率 | i5-10500 CPU，800×800×3 图像，接口端到端推理时长 ≤75ms；文档实测模型本身推理 70ms/pic | 3.1.3、5.1.3 |\n| 功能开放 | AIVI 实例分割工程新增“焊点专用实例分割模型”可选项；软裁剪参数独立开放 | 2.1.1、3.1.3 |",
+      "requirements": "焊点检测现场对检出精度、CT 和跨厂区/产线一致性要求高。原有“检测+分割”双模型维护成本高，单实例分割高效模型（FBINS-NANO）在少样本迁移时存在过漏检和真边精度不足问题。项目目标是输出焊点专用实例分割模型，并沉淀工业实例分割蒸馏预训练能力，实现少样本快速收敛、边缘精度提升和现场 CPU 推理效率满足节拍。",
+      "metricSpec": "| 场景 | 数据配置 | 文档验证结果 |\n| --- | --- | --- |\n| 01_金属小件螺母焊点 | train:20，val:10，test:99，soft_pixels=None | 训练 7min02s；0 过 0 漏；边缘误差 ±1.5px |\n| 02_瑞声马达叠焊 | train:19，val:10，test:42，soft_pixels=None | 训练 6min33s；0 过 0 漏；边缘误差 ±2px |\n| 03_瑞声长盈弹片焊点 | train:20，val:10，test:62，soft_pixels=None | 训练 7min40s；0 过 0 漏；边缘误差 ±2px |\n| CPU 推理 | ONNX，800×800×3，i5-10500 CPU | 模型本身推理时长 70ms/pic |",
+      "keyTech": "- 模型结构：从 yolov8-n-seg 升级到 yolov11-n-seg，主要改动集中在 backbone/neck 的 CSP 模块，并在 cls_pred 引入 DW_conv 降低计算量。\n- 软裁剪：将 Mask 裁剪从 Hard Crop 升级为 Soft Crop，在 bbox 边界引入 soft_pixels 过渡带；soft_pixels=None 时自动按短边比例计算，1e-7 时等价硬裁剪。\n- 工业蒸馏预训练：教师模型 yolov11-x-seg，学生模型 yolov11-n-seg；通过 mse 对齐 neck 特征，bce 对齐分类结果，L1 对齐 bbox，KL 对齐 bbox 分布。\n- 工程封装：新增 FBINS_11N_SOLDERJOINT、FBINS_11X_INDUSTRY、FBINS_11_DISTILL 三个模型类型，其中仅焊点专用模型开放现场，教师/蒸馏模型用于内部预训练权重生成。",
+      "relatedDatasets": [
+        "工业实例分割大数据集（144843张",
+        "154场景",
+        "内网路径待确认）",
+        "焊点预训练数据集（3010张",
+        "28场景",
+        "内网路径待确认）"
+      ],
+      "relatedPapers": [
+        "Ultralytics YOLO11 文档（文档内参考资料）"
+      ],
+      "relatedTechCards": [
+        "Soft Crop 软裁剪",
+        "工业实例分割预训练蒸馏",
+        "YOLO11-N 实例分割模型"
+      ],
+      "flow": "![YOLO11-N 实例分割结构变化](knowledge-assets/20260706/image7-9fac74d4.png)\n\n![工业实例分割预训练蒸馏流程](knowledge-assets/20260706/image12-2d0de87e.png)\n\n![Soft Crop 与 Hard Crop 原理对比](knowledge-assets/20260706/image23-e5d920b5.png)",
+      "experience": "## 基线问题\n\n| 实验 | 数据集 | 数据规模 | 模型 | 漏检率 | 过检率 | 真边精度 |\n| --- | --- | --- | --- | --- | --- | --- |\n| AIVI基线 | 01_金属小件螺母焊点 | train:189 val:33 test:100 | 实例分割-高效 | 0% | 0% | ±4.2px |\n| AIVI基线 | 01_金属小件螺母焊点 | train:20 val:10 test:100 | 实例分割-高效 | 0.7% | 0% | ±5.5px |\n| AIVI基线 | 02_瑞声马达叠焊 | train:221 val:41 test:42 | 实例分割-高效 | 0.33% | 0% | ±6.4px |\n| AIVI基线 | 02_瑞声马达叠焊 | train:20 val:10 test:42 | 实例分割-高效 | 0.68% | 0.95% | ±8.1px |\n| AIVI基线 | 03_瑞声长盈弹片焊点 | train:192 val:23 test:66 | 实例分割-高效 | 0.36% | 0.43% | ±5.4px |\n| AIVI基线 | 03_瑞声长盈弹片焊点 | train:20 val:10 test:66 | 实例分割-高效 | 3.08% | 0.87% | ±7.3px |\n\n## 软裁剪验证样例\n\n![无重叠焊点软裁剪样例](knowledge-assets/20260706/image27-96b62d7c.png)\n\n![叠焊软裁剪样例](knowledge-assets/20260706/image29-2229d20a.png)\n\n## 泛化验证结果\n\n| 场景 | 数据配置 | 文档验证结果 |\n| --- | --- | --- |\n| 01_金属小件螺母焊点 | train:20，val:10，test:99，soft_pixels=None | 训练 7min02s；0 过 0 漏；边缘误差 ±1.5px |\n| 02_瑞声马达叠焊 | train:19，val:10，test:42，soft_pixels=None | 训练 6min33s；0 过 0 漏；边缘误差 ±2px |\n| 03_瑞声长盈弹片焊点 | train:20，val:10，test:62，soft_pixels=None | 训练 7min40s；0 过 0 漏；边缘误差 ±2px |\n| CPU 推理 | ONNX，800×800×3，i5-10500 CPU | 模型本身推理时长 70ms/pic |\n\n## 消融实验截图\n\n![工业预训练蒸馏消融实验截图](knowledge-assets/20260706/image35-c9cc181d.png)\n\n截图显示教师-焊点预训练权重学生自然权重蒸馏后，在下游焊点场景上的 mAP 和真边误差表现优于直接对学生做焊点预训练；截图中的逐项数值建议人工复核后再沉淀为正式量化结论。",
+      "retrospectiveConclusion": "该方案把“结构升级 + 软裁剪后处理 + 工业蒸馏预训练”组合为面向 3C 焊点的专用实例分割路径。文档内自测结果显示，在 20-30 张小样本条件下三个目标场景均达到 0 过 0 漏，真边误差 1.5-2px，训练时间 6-8 分钟内，CPU 模型推理约 70ms/pic，满足设计指标。需要人工确认的风险包括：消融实验截图需转成可追溯表格、VW 与 FBrainCore 软裁剪接口精度对齐结果需补充完整验收记录、预训练数据集路径和权限需确认可长期维护。",
+      "docPath": "/Users/shihuyi/Downloads/AI/AIResearch/zhengli/当前使用的技术方案以及具体指标/1、3C焊点检测专用实例分割模型项目-软件详细设计-FBrainCore算法详细设计V1.0.docx",
+      "blocks": []
+    }
+  ],
+  "customDatasetCards": []
+}

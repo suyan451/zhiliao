@@ -1,0 +1,16 @@
+domains:
+  - slug: kd
+    name: 知识蒸馏
+    description: 分类、检测、分割、异常检测等任务中的 teacher-student 压缩与迁移。
+  - slug: sam
+    name: SAM 与基础分割模型
+    description: Segment Anything 及其工业检测、标注、分割方案中的适配与微调。
+  - slug: pretrain
+    name: 预训练与自监督
+    description: 工业视觉数据上的预训练、自监督、迁移学习和表征学习。
+  - slug: model_arch
+    name: 模型结构
+    description: 检测、分割、分类、异常检测模型结构选型和改造。
+  - slug: solution
+    name: 工业解决方案
+    description: 项目方案、落地流程、现场经验、风险和标准化交付沉淀。

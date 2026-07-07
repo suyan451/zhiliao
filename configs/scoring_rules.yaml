@@ -1,0 +1,16 @@
+scoring:
+  scene_relevance:
+    weight: 0.30
+    question: 是否对应真实工业任务和当前项目痛点
+  engineering_cost:
+    weight: 0.20
+    question: 代码改动、训练成本和部署影响是否可控
+  metric_promise:
+    weight: 0.20
+    question: 论文结果是否有明确、可信、可复现的提升
+  compatibility:
+    weight: 0.15
+    question: 是否兼容现有 teacher/student、数据和训练框架
+  knowledge_value:
+    weight: 0.15
+    question: 是否能沉淀为通用方法或项目方案
